@@ -143,7 +143,7 @@ function Hero() {
         className="flex justify-center items-center md:justify-end gap-[5em] xs:gap-[8em] mt-5 md:pr-[6em]"
       >
         <Header6 text="Informatic Student" />
-        <Header6 text="12250110979" />
+        <Header6 text="12350120165" />
       </motion.div>
       <div className="mt-6 flex flex-col-reverse md:flex-row gap-[8vw] items-start">
         <motion.div
