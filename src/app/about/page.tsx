@@ -1,3 +1,4 @@
+// src/app/about/page.tsx
 import React from "react";
 import Intro from "@/components/About/Intro";
 import AboutMe from "@/components/About/AboutMe";
@@ -8,7 +9,7 @@ import Closing from "@/components/About/Closing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-function About() {
+export default function About() {
   return (
     <div className="px-[6vw]">
       <Navbar />
@@ -24,5 +25,3 @@ function About() {
     </div>
   );
 }
-
-export default About;
