@@ -3,6 +3,7 @@ import Intro from "@/components/About/Intro";
 import AboutMe from "@/components/About/AboutMe";
 import MoreDetail from "@/components/About/MoreDetail";
 import Resume from "@/components/About/Resume";
+import Mockups from "@/components/About/Mockups"; // Ensure this is correct
 import Closing from "@/components/About/Closing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -16,7 +17,7 @@ export default function About() {
         <AboutMe />
         <MoreDetail />
         <Resume />
-        {/* Mockups component removed */}
+        <Mockups /> {/* Uncomment this */}
         <Closing />
       </main>
       <Footer />
