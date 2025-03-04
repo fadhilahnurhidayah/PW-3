@@ -6,8 +6,9 @@ import AboutOutro1 from '../../../public/images/general/about/aboutOutro1.jpg'
 import AboutOutro2 from '../../../public/images/general/about/aboutOutro2.jpg'
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useRef } from "react";
 
-const Mockups: React.FC = () => {
+export default function Mockups(): JSX.Element {
   const image1 = useRef(null)
   const image1Div = useRef(null)
   const image2Div = useRef(null)
@@ -62,5 +63,3 @@ const Mockups: React.FC = () => {
     </section>
   );
 }
-
-export default Mockups;
