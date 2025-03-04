@@ -1,13 +1,13 @@
 "use client"
 
-import React, { useRef } from "react";
+import React from "react";
 import Image from "next/image";
 import AboutOutro1 from '../../../public/images/general/about/aboutOutro1.jpg'
 import AboutOutro2 from '../../../public/images/general/about/aboutOutro2.jpg'
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-function Mockups() {
+const Mockups: React.FC = () => {
   const image1 = useRef(null)
   const image1Div = useRef(null)
   const image2Div = useRef(null)
