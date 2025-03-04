@@ -37,7 +37,27 @@ function Mockups() {
     })
   })
 
-
+  // Add a return statement with the JSX you want to render
+  return (
+    <section className="relative flex flex-col md:flex-row gap-10 py-20">
+      <div ref={image1Div} className="md:w-1/2">
+        <Image 
+          ref={image1} 
+          src={AboutOutro1} 
+          alt="About Outro 1" 
+          className="w-full h-auto object-cover"
+        />
+      </div>
+      <div ref={image2Div} className="md:w-1/2">
+        <Image 
+          ref={image2} 
+          src={AboutOutro2} 
+          alt="About Outro 2" 
+          className="w-full h-auto object-cover"
+        />
+      </div>
+    </section>
+  );
 }
 
 export default Mockups;

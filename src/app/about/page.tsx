@@ -17,6 +17,7 @@ function About() {
         <AboutMe />
         <MoreDetail />
         <Resume />
+        <Mockups />
         <Closing />
       </main>
       <Footer />
