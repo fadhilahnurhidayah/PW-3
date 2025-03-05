@@ -12,7 +12,7 @@ function Footer() {
   const links = [
     {
       title: "email",
-      href: "fadhilahnurhidayah48@gmail.com",
+      href: "mailto:fadhilahnurhidayah48@gmail.com",
     },
     {
       title: "github",
@@ -137,7 +137,7 @@ function Footer() {
               text="Email Me"
               fontSize="text-[16px]"
               classNameWidth="w-full sm:w-[45%] lg:w-[12em]"
-              email="jmaduafokwa@hotmail.com"
+              email="fadhilahnurhidayah48@gmail.com"
             />
           </motion.div>
         </div>
@@ -174,10 +174,10 @@ function Footer() {
             <span className="text-[14px] animate-ping text-green-500 mr-1">
               &#x2022;
             </span>
-            Available for work
+       
           </p>
           <p className="text-[14px] text-lightText dark:text-darkText">
-            Freelance, Full-time
+            
           </p>
         </motion.div>
       </div>
